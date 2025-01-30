@@ -5,14 +5,14 @@ let schema = new mongoose.Schema({
         type: String,
         required: true
     },
-    age: {
-        type: Number,
-        required: true
-    },
     emailId: {
         type: String,
         default: ""
-    }
+    },
+    password: {
+        type: String,
+        required: true
+    },
 }, { timestamps: true});
 
 module.exports = mongoose.model('users', schema);
