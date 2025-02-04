@@ -1,18 +1,25 @@
 {
-  "name": "d1_server",
+  "name": "itfuturz_node_class",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagannathit007/itfuturz_node_class.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jagannathit007/itfuturz_node_class/issues"
+  },
+  "homepage": "https://github.com/jagannathit007/itfuturz_node_class#readme",
   "description": "",
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "mongoose": "^8.9.5"
+    "mongoose": "^8.9.6"
   }
 }
